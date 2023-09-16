@@ -1,0 +1,26 @@
+@media screen and (max-width: 700px) {
+  .desktop {
+    width: 375px;
+    height: 936px;
+  }
+  .leftOvalBlock {
+    right: 187px;
+    bottom: 427px;
+  }
+  .imgMobileBlock {
+    left: 64px;
+    top: 64px;
+  }
+  .simpleBookBlock {
+    width: 311px;
+    height: 239px;
+    margin: 633px 32px 64px 32px;
+  }
+  .stayInTouchText {
+    text-align: center;
+  }
+  .rightOvalBlock {
+    top: 427px;
+    left: 188px;
+  }
+}

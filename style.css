@@ -1,0 +1,230 @@
+* {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.desktop {
+  width: 1440px;
+  height: 800px;
+  display: flex;
+  position: relative;
+  background: #fafafa;
+  overflow: hidden;
+  margin: auto;
+}
+.leftOvalBlock {
+  width: 510px;
+  height: 1018px;
+  border-radius: 255px;
+  background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+  position: absolute;
+  right: 1020px;
+  bottom: 100px;
+}
+.imgMobileBlock {
+  width: 247px;
+  height: 505px;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0px 30px 60px -10px rgba(62, 39, 83, 0.25);
+  position: absolute;
+  left: 363px;
+  top: 138px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mask {
+  width: 228px;
+  height: 483px;
+  border-radius: 20px;
+  border: 1px solid rgba(62, 39, 83, 0.05);
+  background: #f5f3f7;
+}
+.topMobBlock {
+  width: 228px;
+  height: 66px;
+  border-radius: 20px 20px 6px 6px;
+  background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+  box-shadow: 0px 0px 13px 0px rgba(62, 39, 83, 0.25);
+}
+.smallTopMobBlock {
+  width: 129px;
+  height: 29px;
+  border-radius: 0px 0px 14px 14px;
+  background: #fcfafa;
+  position: absolute;
+  top: 0;
+  left: 59px;
+}
+.arrow {
+  position: absolute;
+  top: 48px;
+  left: 25px;
+  width: 4px;
+  height: 10px;
+}
+.avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 41px;
+  left: 37px;
+}
+.SamGreen {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  position: absolute;
+  left: 70px;
+  top: 41px;
+}
+.available {
+  color: #d99eff;
+  font-size: 8px;
+  font-weight: 400;
+  position: absolute;
+  left: 70px;
+  top: 56px;
+}
+.threeDots {
+  width: 2px;
+  height: 8px;
+  position: absolute;
+  top: 49px;
+  right: 26px;
+}
+.allText {
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 11px;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+}
+.incomingText {
+  margin-left: 7.5px;
+  color: #9341c8;
+  border-radius: 10px 10px 10px 4px;
+  background: #eee5f4;
+  width: 128px;
+}
+.thatSounds {
+  margin: 11px 92.5px 8px 7.5px;
+  height: 34px;
+}
+.coldYouSend {
+  height: 34px;
+}
+.pictures {
+  width: 136px;
+  margin: 16px 7.5px 8px 84.5px;
+  display: flex;
+  justify-content: space-between;
+}
+.imgDog {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.05);
+}
+.outputText {
+  border-radius: 10px 10px 4px 10px;
+  box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.05);
+  color: #6e5d7e;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.hereAre {
+  margin: 8px 7.5px 0 92.5px;
+  height: 34px;
+}
+.canYou {
+  margin: 8px 7.5px 16px 140.5px;
+  width: 64px;
+  height: 23px;
+}
+.sheLooksSoHappy {
+  height: 45px;
+}
+.walkBlock {
+  width: 160px;
+  height: 32px;
+  border-radius: 10px 10px 10px 4px;
+  background: linear-gradient(-200deg, #e844ff 0%, #8739ff 100%);
+  box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.05);
+  margin: 8px 60.5px 0px 7.5px;
+  display: flex;
+  align-items: center;
+}
+.circle {
+  width: 12px;
+  height: 12px;
+  stroke-width: 1px;
+  stroke: #e472ff;
+  padding-left: 8px;
+}
+.timeText {
+  color: #fff;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 11px;
+  padding-left: 8px;
+  width: 57px;
+}
+.money {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 11px;
+  padding-left: 35px;
+}
+.message {
+  width: 189.58px;
+  height: 33.909px;
+  border: none;
+  border-radius: 16.954px;
+  background: #fff;
+  margin: 16px 7.5px;
+  padding-left: 19.42px;
+  color: #c5c9cc;
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: -0.07px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 4px;
+}
+.simpleBookBlock {
+  width: 445px;
+  height: 183px;
+  margin: 309px 260px 308px 735px;
+}
+.simpleBookingText {
+  color: #3e2753;
+  font-size: 40px;
+  font-weight: 500;
+}
+.stayInTouchText {
+  padding-top: 24px;
+  color: #a39da9;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.rightOvalBlock {
+  width: 510px;
+  height: 1018px;
+  border-radius: 255px;
+  opacity: 0.03;
+  background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+  position: absolute;
+  top: 119px;
+  left: 1115px;
+}
